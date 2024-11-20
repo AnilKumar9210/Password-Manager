@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lunasima:wght@400;700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Yuji+Mai&display=swap');
+
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+    padding: 0 55px;
+    background-color: #12122a;
+    color: white;
+    
+  font-family: "Host Grotesk", sans-serif;
+  font-optical-sizing: auto;
+}
+.navBar>li{
+    list-style: none;
+    font-size: larger;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.navBar>li>span {
+    font-size: larger;
+    font-weight: bolder;
+    color: green;
+}
+
+.navBar>li>a {
+    text-decoration: none;
+    color: white;
+}
+
